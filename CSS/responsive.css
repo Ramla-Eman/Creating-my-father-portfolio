@@ -1,0 +1,48 @@
+@media (max-width: 1280px) {
+    nav .navbar .right .mediaLinks a span {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 58%;
+    }
+
+    header nav {
+        padding: 4rem 2rem;
+    }
+
+    nav .navbar .right .searchIcon {
+        display: flex;
+    }
+
+    nav .navbar .right .searchBar {
+        display: none;
+    }
+
+    header hr{
+        width: 95%;
+    }
+}
+
+@media (max-width: 390px){
+    html{
+        font-size: 40%;
+    }
+
+    nav .logo{
+        font-size: 2.8rem;
+    }
+
+    nav .navbar{
+        gap: 2rem;
+    }
+    nav .navbar .right .mediaLinks a {
+        display: none;
+    }
+
+    nav .navbar .right{
+        gap: 0;
+    }
+}
