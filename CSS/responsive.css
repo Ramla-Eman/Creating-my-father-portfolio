@@ -24,6 +24,10 @@
     header hr{
         width: 95%;
     }
+
+    .sidebar{
+        left: 20px;
+    }
 }
 
 @media (max-width: 390px){
