@@ -324,7 +324,7 @@ header hr {
     font-size: 1.4rem;
 }
 
-.Maincontent .mainRight .right1 .subHeading h1{
+.Maincontent .mainRight .right1 .subHeading h1 {
     font-family: "Ubuntu", serif;
     font-size: 6.4rem;
     margin-left: 2.5rem;
@@ -333,7 +333,7 @@ header hr {
 .Maincontent .mainRight .right1 .subHeading h1 span {
     color: #12F7D6;
     font-size: 6.4rem;
-    
+
 }
 
 .Maincontent .mainRight .right1 .subPara span {
@@ -341,19 +341,102 @@ header hr {
     font-size: 1.4rem;
 }
 
-.Maincontent .mainRight .right1 .subPara p{
+.Maincontent .mainRight .right1 .subPara p {
     color: #ffffff;
     font-size: 1.6rem;
     margin-left: 2rem;
 }
 
-.Maincontent .mainRight .right1 .para{
+.Maincontent .mainRight .right1 .para {
     font-size: 3.2rem;
     color: #12F7D6;
     margin-left: 2rem;
 }
 
-.Maincontent .mainRight .right1 .para i{
+.Maincontent .mainRight .right1 .para i {
     font-size: 2.5rem;
     color: #98FAEC;
+}
+
+#about {
+    width: 100%;
+    height: 1080px;
+    background: url("../img/About me.png") no-repeat center;
+    background-size: cover;
+    background-color: #1A1E23;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.mouse {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.mouse i {
+    color: #12F7D6;
+    font-size: 4rem;
+}
+
+.mouse img {
+    color: #fff;
+}
+
+#about .aboutBottom {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#about .aboutBottom .aboutLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 7rem 0;
+}
+
+#about .aboutBottom .aboutLeft .aboutHeading {
+    border-top-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    background: #292F36;
+    width: 30rem;
+    height: 7.5rem;
+    border: 3px solid #12F7D6;
+    text-align: center;
+    font-size: 6rem;
+    color: #ffffff;
+    font-family: "Ubuntu", serif;
+}
+
+#about .aboutBottom .aboutLeft .aboutPara {
+    color: #ffffff;
+    font-family: "IBM Plex Mono", serif;
+    background: #292F36;
+    width: 88rem;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    justify-content: center;
+    height: 31.3rem;
+    border-radius: 4rem;
+}
+
+#about .aboutBottom .aboutLeft .aboutPara span{
+    color: #98FAEC;
+    font-size: 1.4rem;
+    margin: 1rem 0;
+}
+
+#about .aboutBottom .aboutLeft .aboutPara h4{
+    color: #12F7D6;
+    font-size: 3.2rem;
+}
+
+#about .aboutBottom .aboutLeft .aboutPara p{
+    font-size: 1.6rem;
 }

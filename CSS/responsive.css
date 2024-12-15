@@ -11,6 +11,15 @@
         flex-direction: column;
         margin-top: 5rem;
     }
+
+    #about{
+        height: 1289px;
+    }
+
+    #about .aboutBottom{
+        flex-direction: column;
+        gap: 5rem 0;
+    }
 }
 
 @media (max-width: 768px) {
@@ -60,6 +69,11 @@
         margin-left: 3.5rem;
         gap: 3rem;
     }
+
+    #about .aboutBottom .aboutLeft .aboutPara{
+        width: 80rem;
+    }
+
 }
 
 @media (max-width: 390px){
@@ -102,5 +116,19 @@
 
     .Maincontent .mainRight .right1 .para{
         text-align: center;
+    }
+
+    #about .aboutBottom .aboutLeft .aboutPara{
+        width: 58rem;
+        height: 35.3rem;
+    }
+
+    #about .aboutBottom img{
+        width: 100%;
+        height: auto;
+    }
+
+    #about{
+        height: 1000px;
     }
 }
