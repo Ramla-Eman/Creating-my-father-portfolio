@@ -131,4 +131,15 @@
     #about{
         height: 1000px;
     }
+
+    #skills .skillsTop p{
+        font-size: 12rem;
+        left: 14rem;
+        top: 5rem;
+    }
+
+    #skills .skillBoxes .box{
+        width: 28.8rem;
+        border-left: none;
+    }
 }
