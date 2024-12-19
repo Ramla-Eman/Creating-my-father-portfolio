@@ -20,6 +20,10 @@
         flex-direction: column;
         gap: 5rem 0;
     }
+
+    .buttons{
+        width: 51%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -72,6 +76,20 @@
 
     #about .aboutBottom .aboutLeft .aboutPara{
         width: 80rem;
+    }
+
+    .buttons{
+        width: 85%;
+    }
+
+    #blogs .blogscontent{
+        width: 581px;
+        gap: 3rem;
+    }
+
+    #blogs .blogscontent img{
+        width: 120px;
+        height: 120px;
     }
 
 }
@@ -141,5 +159,22 @@
     #skills .skillBoxes .box{
         width: 28.8rem;
         border-left: none;
+    }
+
+    .worksSlider .workcard img{
+        width: 90%;
+    }
+
+    #works{
+        height: 600px ;
+    }
+
+    #blogs .blogscontent{
+        flex-direction: column;
+        width: 360px;
+    }
+
+    #blogs{
+        height: 900px;
     }
 }
