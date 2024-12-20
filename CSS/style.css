@@ -655,3 +655,124 @@ header hr {
     background: #12F7D6;
     color: #292F36;
 }
+
+#contact-footer {
+    width: 100%;
+    height: 1080px;
+    background: #1A1E23;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2.5rem;
+    padding-top: 4rem;
+}
+
+#contact-footer .title {
+    width: 407px;
+    height: 74px;
+    text-align: center;
+    padding: 1.3rem;
+    font-family: "IBM Plex Mono", serif;
+    font-size: 3.2rem;
+    border: 2px solid #12F7D6;
+    border-top-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    color: #12F7D6;
+}
+
+#contact-footer form {
+    width: 1120px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Ubuntu", serif;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+#contact-footer form .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#contact-footer form .inputs:nth-child(1),
+#contact-footer form .inputs:nth-child(2) {
+    width: 45%;
+}
+
+#contact-footer form .inputs:nth-child(3) {
+    width: 100%;
+    margin-top: 6rem;
+}
+
+#contact-footer form label {
+    color: #12F7D6;
+    font-size: 1.6rem;
+}
+
+#contact-footer form input[type="text"],
+#contact-footer form input[type="email"],
+#contact-footer form textarea {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #98FAEC;
+    outline: none;
+    color: #ffffff;
+}
+
+#contact-footer button {
+    border-radius: 32px;
+    border: 2px solid #12F7D6;
+    background: #12F7D6;
+    padding: 1.6rem 3.2rem;
+    color: #292F36;
+    font-size: 2rem;
+}
+
+#contact-footer button i {
+    margin-left: 1rem;
+}
+
+#contact-footer button:hover {
+    background: none;
+    color: #12F7D6;
+}
+
+#contact-footer footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px solid #43454D;
+    padding: 2rem;
+    font-family: "Ubuntu", serif;
+    color: #ffffff;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+#contact-footer footer ul {
+    display: flex;
+    gap: 4rem;
+}
+
+#contact-footer footer ul li {
+    list-style: none;
+}
+
+#contact-footer footer .links {
+    display: flex;
+    gap: 2rem;
+}
+
+#contact-footer footer .links a {
+    color: #292F36;
+    background: #98FAEC;
+    padding: 0.8rem 1rem;
+    border-radius: 50%;
+}
+
+#contact-footer footer p a {
+    color: #12F7D6;
+}

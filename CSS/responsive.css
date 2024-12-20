@@ -92,6 +92,10 @@
         height: 120px;
     }
 
+    #contact-footer form{
+        width: 700px;
+    }
+
 }
 
 @media (max-width: 390px){
@@ -169,6 +173,10 @@
         height: 600px ;
     }
 
+    .buttons{
+        width: 95%;
+    }
+
     #blogs .blogscontent{
         flex-direction: column;
         width: 360px;
@@ -176,5 +184,33 @@
 
     #blogs{
         height: 900px;
+    }
+    #contact-footer{
+        height: 800px;
+    }
+
+    #contact-footer form{
+        width: 80%;
+        flex-direction: column;
+    }
+
+    #contact-footer form .inputs:nth-child(1),
+    #contact-footer form .inputs:nth-child(2){
+        width: 100%;
+    }
+
+    #contact-footer form .inputs:nth-child(3){
+        margin-top: 0;
+    }
+
+    #contact-footer .title{
+        width: 300px;
+        height: 60px;
+        font-size: 4rem;
+    }
+
+    #contact-footer footer{
+        gap: 1rem;
+        justify-content: center;
     }
 }
