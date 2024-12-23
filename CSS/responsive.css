@@ -1,27 +1,46 @@
+@media (max-width: 1440px) {
+
+    #about .aboutBottom {
+        width: 95%;
+        gap: 0 3rem;
+    }
+
+    .buttons {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .buttons {
+        width: 45%;
+    }
+
+    #contact-footer form {
+        width: 90%;
+    }
+
+    #blogs .blogscontent {
+        width: 870px;
+        gap: 3rem;
+    }
+}
+
 @media (max-width: 1280px) {
     nav .navbar .navright .mediaLinks a span {
         display: none;
     }
 
-    header{
-        height: 1576px;
-    }
-
-    .Maincontent{
+    .Maincontent {
         flex-direction: column;
         margin-top: 5rem;
     }
 
-    #about{
-        height: 1289px;
-    }
-
-    #about .aboutBottom{
+    #about .aboutBottom {
         flex-direction: column;
         gap: 5rem 0;
     }
 
-    .buttons{
+    .buttons {
         width: 51%;
     }
 }
@@ -43,171 +62,159 @@
         display: none;
     }
 
-    header hr{
+    header hr {
         width: 95%;
     }
 
-    .sidebar{
+    .sidebar {
         left: 20px;
     }
 
-    header{
-        height: 1684px;
-    }
-
-    .main-section{
+    .main-section {
         margin: 4rem auto;
     }
 
-    .main-section .main-heading{
-        font-size: 7rem;
-    }
-
-    .Maincontent{
-        flex-direction: column;
-        margin-top: 3rem;
-    }
-
-    .Maincontent .mainRight{
+    .Maincontent .mainRight {
         flex-direction: column;
         margin-left: 3.5rem;
         gap: 3rem;
     }
 
-    #about .aboutBottom .aboutLeft .aboutPara{
+    #about .aboutBottom .aboutLeft .aboutPara {
         width: 80rem;
     }
 
-    .buttons{
+    .buttons {
         width: 85%;
     }
 
-    #blogs .blogscontent{
-        width: 581px;
+    #blogs .blogscontent {
+        width: 650px;
         gap: 3rem;
-    }
-
-    #blogs .blogscontent img{
-        width: 120px;
-        height: 120px;
-    }
-
-    #contact-footer form{
-        width: 700px;
     }
 
 }
 
-@media (max-width: 390px){
-    html{
+@media (max-width: 430px) {
+    html {
         font-size: 40%;
     }
 
-    nav .logo{
-        font-size: 2.8rem;
-    }
-
-    nav .navbar{
-        gap: 2rem;
-    }
     nav .navbar .navright .mediaLinks a {
         display: none;
     }
 
-    nav .navbar .navright{
-        gap: 0;
+    #about .aboutBottom .aboutLeft .aboutPara {
+        width: 63rem;
+        padding: 1.5rem;
     }
 
-    .Maincontent .mainRight .right1 .subPara p br{
+    #about .aboutBottom img {
+        width: 350px;
+        height: auto;
+    }
+
+    #skills .skillsTop p { 
+        font-size: 15rem;
+        left: 10rem;
+    }
+
+    .worksSlider .workcard img {
+        width: 90%;
+    }
+
+    .buttons {
+        width: 90%;
+    }
+
+    #blogs .blogscontent {
+        flex-direction: column;
+        width: 400px;
+    }
+}
+
+@media (max-width: 390px) {
+    nav .logo {
+        font-size: 2.8rem;
+    }
+
+    nav .navbar {
+        gap: 2rem;
+    }
+
+    .Maincontent .mainRight .right1 .subPara p br {
         display: none;
     }
 
-    header{
-        height: 1100px;
-    }
-
-    .main-section .Maincontent .mainleft .leftTop img{
-        height:12rem;
-        width: 12rem;
-    }
-
     .Maincontent .mainRight .right1 .subHeading h1,
-    .Maincontent .mainRight .right1 .subHeading h1 span{
+    .Maincontent .mainRight .right1 .subHeading h1 span {
         font-size: 5.5rem;
     }
 
-    .Maincontent .mainRight .right1 .para{
+    .Maincontent .mainRight .right1 .para {
         text-align: center;
     }
 
-    #about .aboutBottom .aboutLeft .aboutPara{
+    #about .aboutBottom .aboutLeft .aboutPara {
         width: 58rem;
         height: 35.3rem;
     }
 
-    #about .aboutBottom img{
-        width: 100%;
-        height: auto;
+    #skills .skillBoxes {
+        flex-direction: column;
     }
 
-    #about{
-        height: 1000px;
-    }
-
-    #skills .skillsTop p{
-        font-size: 12rem;
-        left: 14rem;
-        top: 5rem;
-    }
-
-    #skills .skillBoxes .box{
-        width: 28.8rem;
-        border-left: none;
-    }
-
-    .worksSlider .workcard img{
+    .buttons {
         width: 90%;
     }
 
-    #works{
-        height: 600px ;
-    }
-
-    .buttons{
-        width: 95%;
-    }
-
-    #blogs .blogscontent{
-        flex-direction: column;
+    #blogs .blogscontent {
         width: 360px;
     }
 
-    #contact-footer{
-        height: 800px;
-    }
-
-    #contact-footer form{
+    #contact-footer form {
         width: 80%;
         flex-direction: column;
     }
 
     #contact-footer form .inputs:nth-child(1),
-    #contact-footer form .inputs:nth-child(2){
+    #contact-footer form .inputs:nth-child(2) {
         width: 100%;
     }
 
-    #contact-footer form .inputs:nth-child(3){
+    #contact-footer form .inputs:nth-child(3) {
         margin-top: 0;
     }
 
-    #contact-footer .title{
-        width: 300px;
-        height: 60px;
-        font-size: 4rem;
-    }
-
-    #contact-footer footer{
+    #contact-footer footer {
         gap: 1rem;
         justify-content: center;
+    }
+
+    #skills .skillsTop p {
+        font-size: 12rem;
+        left: 10rem;
+    }
+}
+
+@media (max-width: 360px){
+    #about .aboutBottom .aboutLeft .aboutPara {
+        width: 55rem;
+    }
+
+}
+
+@media (max-width: 320px) {
+    html {
+        font-size: 35%;
+    }
+
+    #about .aboutBottom img {
+        width: 300px;
+        height: auto;
+    }
+
+    #blogs .blogscontent {
+        width: 300px;
     }
 }

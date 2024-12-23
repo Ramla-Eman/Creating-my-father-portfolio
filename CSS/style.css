@@ -20,7 +20,7 @@ body {
 
 header {
     background: #292F36;
-    height: 1080px;
+    height: auto;
     width: 100%;
 }
 
@@ -185,7 +185,7 @@ header hr {
 /* Main section styling */
 .main-section {
     width: 100%;
-    height: 718px;
+    height: auto;
     margin: 8rem auto;
     display: flex;
     flex-direction: column;
@@ -359,12 +359,15 @@ header hr {
     color: #98FAEC;
 }
 
+/* About section styling */
+
 #about {
     width: 100%;
-    height: 1080px;
+    height: auto;
     background: url("../img/About me.png") no-repeat center;
     background-size: cover;
     background-color: #1A1E23;
+    padding: 3rem 0;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -444,9 +447,10 @@ header hr {
 
 #skills {
     width: 100%;
-    height: 1080px;
+    height: auto;
     background: url("../img/Skills.png") no-repeat center;
     background-size: cover;
+    padding: 3rem 0;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -549,11 +553,12 @@ header hr {
 
 #works {
     width: 100%;
-    height: 1080px;
+    height: auto;
     background: url("../img/worksImages/Works.png") center;
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 3rem 0;
     gap: 2.5rem;
     justify-content: space-evenly;
     position: relative;
@@ -595,7 +600,7 @@ header hr {
 
 #blogs .blogscontent {
     width: 1052px;
-    height: 368px;
+    height: auto;
     border-top: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
     display: flex;
@@ -660,7 +665,7 @@ header hr {
 
 #contact-footer {
     width: 100%;
-    height: 1080px;
+    height: auto;
     background: #1A1E23;
     display: flex;
     align-items: center;
@@ -671,8 +676,8 @@ header hr {
 }
 
 #contact-footer .title {
-    width: 407px;
-    height: 74px;
+    width: 40.7rem;
+    height: 7.4rem;
     text-align: center;
     padding: 1.3rem;
     font-family: "IBM Plex Mono", serif;
@@ -684,7 +689,7 @@ header hr {
 }
 
 #contact-footer form {
-    width: 1120px;
+    width: 112rem;
     display: flex;
     flex-wrap: wrap;
     font-family: "Ubuntu", serif;
