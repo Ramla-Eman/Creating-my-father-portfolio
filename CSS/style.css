@@ -26,12 +26,13 @@ header {
 
 /* Top navbar styling */
 
-header nav {
+nav {
     display: flex;
     justify-content: space-between;
     font-family: "IBM Plex Mono", monospace;
     align-items: center;
     padding: 6rem 13rem;
+    background: #292F36;
 }
 
 nav .logo {
@@ -582,11 +583,12 @@ header hr {
 
 #blogs {
     width: 100%;
-    height: 1080px;
+    height: auto;
     background: #292F36;
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 3rem 0;
     gap: 2.5rem;
     justify-content: space-evenly;
 }
@@ -639,7 +641,7 @@ header hr {
     background: #ffffff;
 }
 
-#blogs .blogsbuttons button {
+.blogsbuttons button {
     border: 2px solid #12F7D6;
     border-radius: 32px;
     padding: 1.6rem 3.2rem;
@@ -651,7 +653,7 @@ header hr {
     margin-left: 1rem;
 }
 
-#blogs .blogsbuttons button:hover {
+.blogsbuttons button:hover {
     background: #12F7D6;
     color: #292F36;
 }
@@ -739,40 +741,41 @@ header hr {
     color: #12F7D6;
 }
 
-#contact-footer footer {
+footer {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     border-top: 1px solid #43454D;
+    background: #1A1E23;
     padding: 2rem;
     font-family: "Ubuntu", serif;
     color: #ffffff;
     font-size: 1.6rem;
-    text-align: center;
+    align-items: center;
 }
 
-#contact-footer footer ul {
+footer ul {
     display: flex;
     gap: 4rem;
 }
 
-#contact-footer footer ul li {
+footer ul li {
     list-style: none;
 }
 
-#contact-footer footer .links {
+footer .links {
     display: flex;
     gap: 2rem;
 }
 
-#contact-footer footer .links a {
+footer .links a {
     color: #292F36;
     background: #98FAEC;
     padding: 0.8rem 1rem;
     border-radius: 50%;
 }
 
-#contact-footer footer p a {
+footer p a {
     color: #12F7D6;
 }
